@@ -38,3 +38,13 @@ zstyle :compinstall filename '/home/daniel/.zshrc'
 
 autoload -Uz compinit
 compinit
+
+# GIT
+alias gs='git status'
+alias ga='git commit'
+alias gc='git commit'
+alias gac='git commit -a'
+alias gp='git push'
+alias gpo='git push origin'
+alias gl='git pull'
+alias glo='git pull origin'
