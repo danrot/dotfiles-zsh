@@ -1,0 +1,8 @@
+[user]
+	name = Daniel Rotter
+	email = daniel.rotter@gmail.com
+[core]
+	editor = vim
+[color]
+	ui = true
+
