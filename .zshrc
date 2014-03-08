@@ -1,10 +1,17 @@
 # GENERAL OPTIONS
+[[ -z "$PS1" ]] && return
+
 setopt AUTOCD                                           
 setopt EXTENDEDGLOB
 setopt NOMATCH
 setopt NOTIFY
 
 unsetopt BEEP
+
+# PROMPTS
+setopt PROMPT_SUBST
+autoload -U colors && colors
+PS1=' %{$fg_bold[cyan]%}%~ %(?:%{$fg_bold[green]%}$:%{$fg_bold[red]%}$) %{$reset_color%}'
 
 # HISTORY
 HISTFILE=~/.zhistory
@@ -25,8 +32,6 @@ bindkey '^[[1;5C' forward-word                          # ctrl + left
 bindkey '^[[1;5D' backward-word                         # ctrl + right
 bindkey '^[OH' beginning-of-line                        # pos1
 bindkey '^[OF' end-of-line                              # end
-
-
 
 # COMPLETION
 zstyle :compinstall filename '/home/daniel/.zshrc'
