@@ -39,6 +39,16 @@ zstyle :compinstall filename '/home/daniel/.zshrc'
 autoload -Uz compinit
 compinit
 
+# DIRECTORIES
+alias ls='ls --color'
+alias l='ls'
+alias ll='ls -l'
+alias la='ls -a'
+alias lh='ls -h'
+alias lla='ls -la'
+alias llh='ls -lh'
+alias llha='ls -lha'
+
 # GIT
 alias gs='git status'
 alias ga='git commit'
@@ -48,3 +58,5 @@ alias gp='git push'
 alias gpo='git push origin'
 alias gl='git pull'
 alias glo='git pull origin'
+alias gm='git merge --no-ff'
+alias gr='git remote'
