@@ -10,3 +10,5 @@ alias gm='git merge --no-ff'
 alias gr='git remote'
 alias grm="git rm"
 alias gcl="git clone"
+alias gd="git diff"
+alias gds="git diff --staged"
