@@ -49,6 +49,9 @@ alias lla='ls -la'
 alias llh='ls -lh'
 alias llha='ls -lha'
 
+# FILES
+alias vi='vim'
+
 # GIT
 alias gs='git status'
 alias ga='git commit'
