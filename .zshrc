@@ -40,6 +40,10 @@ zstyle ':completion:*' menu select
 autoload -Uz compinit
 compinit
 
+# SYSTEM
+alias h='history 0'
+alias g='grep'
+
 # DIRECTORIES
 alias ls='ls --color'
 alias l='ls'
