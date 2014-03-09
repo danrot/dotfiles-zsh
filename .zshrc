@@ -35,6 +35,7 @@ bindkey '^[OF' end-of-line                              # end
 
 # COMPLETION
 zstyle :compinstall filename '/home/daniel/.zshrc'
+zstyle ':completion:*' menu select
 
 autoload -Uz compinit
 compinit
@@ -52,14 +53,6 @@ alias llha='ls -lha'
 # FILES
 alias vi='vim'
 
-# GIT
-alias gs='git status'
-alias ga='git commit'
-alias gc='git commit'
-alias gac='git commit -a'
-alias gp='git push'
-alias gpo='git push origin'
-alias gl='git pull'
-alias glo='git pull origin'
-alias gm='git merge --no-ff'
-alias gr='git remote'
+# INCLUDES
+source ~/.dotfiles/zsh/git/config.zsh
+source ~/.dotfiles/zsh/git/aliases.zsh
