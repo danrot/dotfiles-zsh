@@ -81,3 +81,5 @@ man() {
 # INCLUDES
 source ~/.dotfiles/zsh/git/config.zsh
 source ~/.dotfiles/zsh/git/aliases.zsh
+source ~/.dotfiles/zsh/composer/config.zsh
+source ~/.dotfiles/zsh/composer/aliases.zsh
