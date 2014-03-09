@@ -9,3 +9,4 @@ alias glo='git pull origin'
 alias gm='git merge --no-ff'
 alias gr='git remote'
 alias grm="git rm"
+alias gcl="git clone"
