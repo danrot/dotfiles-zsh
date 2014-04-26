@@ -35,7 +35,7 @@ bindkey '^[OF' end-of-line                              # end
 
 # COMPLETION
 eval "`dircolors -b`"
-zstyle :compinstall filename '/home/daniel/.zshrc'
+zstyle :compinstall filename '~/.zshrc'
 zstyle ':completion:*' menu select
 zstyle ':completion:*' list-colors ${LS_COLORS}
 
