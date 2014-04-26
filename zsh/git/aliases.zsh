@@ -13,3 +13,5 @@ alias grm="git rm"
 alias gcl="git clone"
 alias gd="git diff"
 alias gds="git diff --staged"
+alias gb='git branch'
+alias gbd='git branch -d'
