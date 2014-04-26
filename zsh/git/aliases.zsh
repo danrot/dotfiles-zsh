@@ -1,6 +1,7 @@
 alias gs='git status'
 alias ga='git add'
 alias gc='git commit'
+alias gco='git checkout'
 alias gac='git commit -a'
 alias gp='git push'
 alias gpo='git push origin'
