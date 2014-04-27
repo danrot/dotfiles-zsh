@@ -15,3 +15,6 @@ alias gd="git diff"
 alias gds="git diff --staged"
 alias gb='git branch'
 alias gbd='git branch -d'
+alias gf='git fetch'
+alias gfo='git fetch origin'
+
