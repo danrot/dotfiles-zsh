@@ -47,7 +47,9 @@ alias h='history 0'
 alias g='grep'
 
 # DIRECTORIES
-alias ls='ls --color'
+export CLICOLOR=1
+export LSCOLORS=Exfxcxdxbxegedabagacad
+export LS_COLORS=Exfxcxdxbxegedabagacad
 alias l='ls'
 alias ll='ls -l'
 alias la='ls -a'
