@@ -3,6 +3,9 @@
 	email = daniel.rotter@gmail.com
 [core]
 	editor = vim
+	excludesfile = ~/.dotfiles/.gitignore
 [color]
 	ui = true
 
+[push]
+	default = simple
