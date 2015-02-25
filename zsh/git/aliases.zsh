@@ -19,4 +19,8 @@ alias gb='git branch'
 alias gbd='git branch -d'
 alias gf='git fetch'
 alias gfo='git fetch origin'
+alias gss='git stash save'
+alias gsl='git stash list'
+alias gsa='git stash apply'
+alias gsc='git stash clear'
 
