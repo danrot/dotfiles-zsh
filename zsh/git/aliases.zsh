@@ -23,4 +23,5 @@ alias gss='git stash save'
 alias gsl='git stash list'
 alias gsa='git stash apply'
 alias gsc='git stash clear'
+alias gsp='git stash pop'
 
