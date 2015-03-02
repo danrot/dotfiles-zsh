@@ -34,7 +34,6 @@ bindkey '^[OH' beginning-of-line                        # pos1
 bindkey '^[OF' end-of-line                              # end
 
 # COMPLETION
-eval "`dircolors -b`"
 zstyle :compinstall filename '~/.zshrc'
 zstyle ':completion:*' menu select
 zstyle ':completion:*' list-colors ${LS_COLORS}
@@ -81,6 +80,9 @@ man() {
     LESS_TERMCAP_us=$(printf "\e[1;32m") \
     man "$@"
 }
+
+# Z
+. `brew --prefix`/etc/profile.d/z.sh
 
 # INCLUDES
 source ~/.dotfiles/zsh/git/config.zsh
