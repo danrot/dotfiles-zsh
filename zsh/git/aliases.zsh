@@ -24,4 +24,6 @@ alias gsl='git stash list'
 alias gsa='git stash apply'
 alias gsc='git stash clear'
 alias gsp='git stash pop'
+alias gv='git revert'
+alias grb='git rebase'
 
