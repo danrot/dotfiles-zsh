@@ -26,4 +26,5 @@ alias gsc='git stash clear'
 alias gsp='git stash pop'
 alias gv='git revert'
 alias grb='git rebase'
+alias gcp='git cherry-pick'
 
