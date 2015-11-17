@@ -1,3 +1,4 @@
+alias git=hub
 alias gs='git status'
 alias ga='git add'
 alias gc='git commit'
@@ -27,4 +28,5 @@ alias gsp='git stash pop'
 alias gv='git revert'
 alias grb='git rebase'
 alias gcp='git cherry-pick'
+alias gpr='git pull-request'
 
