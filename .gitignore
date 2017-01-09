@@ -1,4 +1,7 @@
 *.swp
 
+.tern-port
+.padawan/
+
 .idea/
 *.iml
