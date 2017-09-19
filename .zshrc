@@ -1,7 +1,7 @@
 # GENERAL OPTIONS
 [[ -z "$PS1" ]] && return
 
-setopt AUTOCD                                           
+setopt AUTOCD
 setopt EXTENDEDGLOB
 setopt NOMATCH
 setopt NOTIFY
@@ -85,6 +85,7 @@ man() {
 . `brew --prefix`/etc/profile.d/z.sh
 
 # INCLUDES
+source ~/.dotfiles/zsh/ack/aliases.zsh
 source ~/.dotfiles/zsh/git/config.zsh
 source ~/.dotfiles/zsh/git/aliases.zsh
 source ~/.dotfiles/zsh/composer/config.zsh
